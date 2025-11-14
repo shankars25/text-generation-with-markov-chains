@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Text Generation with Markov Chains.ipynb
-# ============================================
-# Task 3: Text Generation with Markov Chains
-# ============================================
+"""Text Generation with Markov Chains"""
 
 import random
 
@@ -24,9 +21,6 @@ for i in range(len(words)-1):
         markov_chain[key].append(next_word)
     else:
         markov_chain[key] = [next_word]
-
-# Optional: Print Markov chain dictionary (for debugging)
-# print(markov_chain)
 
 # Step 4: Function to generate text
 def generate_text(chain, length=30):
