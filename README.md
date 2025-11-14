@@ -1,7 +1,7 @@
 # Text Generation using Markov Chains
 
 ###  Prodigy Infotech Internship Task – Task 3
-**Author:** Pranay Phepade  
+**Author:** Shankar Sutar  
 **Project:** Text Generation with Markov Chains  
 
 ---
